@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(135deg, #0E7F41, #0ba360, #3ebd93);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding-top: 10%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.logo {
+  height: 128px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  font-size: 1.5rem;
+}
+
+.countdown-item {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 90px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.countdown-item h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #FFD700; /* emas */
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  color: #e0e0e0;
+}
